@@ -15,6 +15,13 @@
 		7D4E611A205B5FCA00D48F77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6119205B5FCA00D48F77 /* main.m */; };
 		7D4E6124205B5FCA00D48F77 /* drawDrawFamilyTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6123205B5FCA00D48F77 /* drawDrawFamilyTreeTests.m */; };
 		7D4E612F205B5FCA00D48F77 /* drawDrawFamilyTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E612E205B5FCA00D48F77 /* drawDrawFamilyTreeUITests.m */; };
+		7D4E6149205B62DD00D48F77 /* ExampleDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6148205B62DD00D48F77 /* ExampleDataTool.m */; };
+		7D4E614B205B63C700D48F77 /* ExampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D4E614A205B63C700D48F77 /* ExampleData.json */; };
+		7D4E614E205B646600D48F77 /* FamilyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E614D205B646600D48F77 /* FamilyModel.m */; };
+		7D4E6151205B65CC00D48F77 /* FamilyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6150205B65CC00D48F77 /* FamilyButton.m */; };
+		7D4E6154205B65E500D48F77 /* FamilyTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6153205B65E500D48F77 /* FamilyTreeView.m */; };
+		7D4E615B205B6C1500D48F77 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E6157205B6C1500D48F77 /* NSObject+YYModel.m */; };
+		7D4E615C205B6C1500D48F77 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4E615A205B6C1500D48F77 /* YYClassInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		7D4E612A205B5FCA00D48F77 /* drawDrawFamilyTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drawDrawFamilyTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D4E612E205B5FCA00D48F77 /* drawDrawFamilyTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawDrawFamilyTreeUITests.m; sourceTree = "<group>"; };
 		7D4E6130205B5FCA00D48F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4E6147205B62DD00D48F77 /* ExampleDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleDataTool.h; sourceTree = "<group>"; };
+		7D4E6148205B62DD00D48F77 /* ExampleDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDataTool.m; sourceTree = "<group>"; };
+		7D4E614A205B63C700D48F77 /* ExampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ExampleData.json; sourceTree = "<group>"; };
+		7D4E614C205B646600D48F77 /* FamilyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyModel.h; sourceTree = "<group>"; };
+		7D4E614D205B646600D48F77 /* FamilyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyModel.m; sourceTree = "<group>"; };
+		7D4E614F205B65CC00D48F77 /* FamilyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyButton.h; sourceTree = "<group>"; };
+		7D4E6150205B65CC00D48F77 /* FamilyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyButton.m; sourceTree = "<group>"; };
+		7D4E6152205B65E500D48F77 /* FamilyTreeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FamilyTreeView.h; sourceTree = "<group>"; };
+		7D4E6153205B65E500D48F77 /* FamilyTreeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FamilyTreeView.m; sourceTree = "<group>"; };
+		7D4E6157205B6C1500D48F77 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		7D4E6158205B6C1500D48F77 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		7D4E6159205B6C1500D48F77 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		7D4E615A205B6C1500D48F77 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		7D4E615E205B71C000D48F77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D4E6160205B720400D48F77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +107,7 @@
 				7D4E6122205B5FCA00D48F77 /* drawDrawFamilyTreeTests */,
 				7D4E612D205B5FCA00D48F77 /* drawDrawFamilyTreeUITests */,
 				7D4E6108205B5FCA00D48F77 /* Products */,
+				7D4E615D205B71C000D48F77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +124,8 @@
 		7D4E6109205B5FCA00D48F77 /* drawDrawFamilyTree */ = {
 			isa = PBXGroup;
 			children = (
+				7D4E613D205B604000D48F77 /* TreeView */,
+				7D4E613C205B602700D48F77 /* TreeModel */,
 				7D4E610A205B5FCA00D48F77 /* AppDelegate.h */,
 				7D4E610B205B5FCA00D48F77 /* AppDelegate.m */,
 				7D4E610D205B5FCA00D48F77 /* ViewController.h */,
@@ -130,6 +155,58 @@
 				7D4E6130205B5FCA00D48F77 /* Info.plist */,
 			);
 			path = drawDrawFamilyTreeUITests;
+			sourceTree = "<group>";
+		};
+		7D4E613C205B602700D48F77 /* TreeModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E6156205B6BF900D48F77 /* YYModel */,
+				7D4E613E205B608700D48F77 /* TreeExampleData */,
+				7D4E614C205B646600D48F77 /* FamilyModel.h */,
+				7D4E614D205B646600D48F77 /* FamilyModel.m */,
+			);
+			path = TreeModel;
+			sourceTree = "<group>";
+		};
+		7D4E613D205B604000D48F77 /* TreeView */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E614F205B65CC00D48F77 /* FamilyButton.h */,
+				7D4E6150205B65CC00D48F77 /* FamilyButton.m */,
+				7D4E6152205B65E500D48F77 /* FamilyTreeView.h */,
+				7D4E6153205B65E500D48F77 /* FamilyTreeView.m */,
+			);
+			path = TreeView;
+			sourceTree = "<group>";
+		};
+		7D4E613E205B608700D48F77 /* TreeExampleData */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E614A205B63C700D48F77 /* ExampleData.json */,
+				7D4E6147205B62DD00D48F77 /* ExampleDataTool.h */,
+				7D4E6148205B62DD00D48F77 /* ExampleDataTool.m */,
+			);
+			path = TreeExampleData;
+			sourceTree = "<group>";
+		};
+		7D4E6156205B6BF900D48F77 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E6158205B6C1500D48F77 /* NSObject+YYModel.h */,
+				7D4E6157205B6C1500D48F77 /* NSObject+YYModel.m */,
+				7D4E6159205B6C1500D48F77 /* YYClassInfo.h */,
+				7D4E615A205B6C1500D48F77 /* YYClassInfo.m */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		7D4E615D205B71C000D48F77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D4E6160205B720400D48F77 /* UIKit.framework */,
+				7D4E615E205B71C000D48F77 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +317,7 @@
 			files = (
 				7D4E6117205B5FCA00D48F77 /* LaunchScreen.storyboard in Resources */,
 				7D4E6114205B5FCA00D48F77 /* Assets.xcassets in Resources */,
+				7D4E614B205B63C700D48F77 /* ExampleData.json in Resources */,
 				7D4E6112205B5FCA00D48F77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D4E6149205B62DD00D48F77 /* ExampleDataTool.m in Sources */,
 				7D4E610F205B5FCA00D48F77 /* ViewController.m in Sources */,
+				7D4E614E205B646600D48F77 /* FamilyModel.m in Sources */,
+				7D4E615B205B6C1500D48F77 /* NSObject+YYModel.m in Sources */,
+				7D4E6151205B65CC00D48F77 /* FamilyButton.m in Sources */,
 				7D4E611A205B5FCA00D48F77 /* main.m in Sources */,
+				7D4E6154205B65E500D48F77 /* FamilyTreeView.m in Sources */,
+				7D4E615C205B6C1500D48F77 /* YYClassInfo.m in Sources */,
 				7D4E610C205B5FCA00D48F77 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C23297ZDTL;
 				INFOPLIST_FILE = drawDrawFamilyTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NicoleYang.familyTree.drawDrawFamilyTree;
@@ -444,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C23297ZDTL;
 				INFOPLIST_FILE = drawDrawFamilyTree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NicoleYang.familyTree.drawDrawFamilyTree;
